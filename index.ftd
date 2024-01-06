@@ -1,0 +1,73 @@
+-- ftd.column:
+margin-top.px: 20
+margin-bottom.px: 20
+align-self: center
+height.fixed.px: 380
+width.fixed.px: 310
+background.solid: rgb(202,201,200)
+border-radius.px: 10
+
+
+-- ftd.text: Login
+align-self: center
+region: h1
+padding-top.px: 25
+padding-bottom.px: 25
+
+
+-- ftd.text-input:
+placeholder: Username
+align-self: center
+width.fixed.px: 270
+padding-horizontal.px: 16
+padding-vertical.px: 12
+margin-bottom.px: 25
+border-radius.px: 10
+multiline: false
+type: text
+
+
+-- ftd.text-input:
+placeholder: Password
+align-self: center
+width.fixed.px: 270
+padding-horizontal.px: 16
+padding-vertical.px: 12
+margin-bottom.px: 10
+border-radius.px: 10
+multiline: false
+type: password
+
+
+-- ftd.text: Forgot Password?
+align-self: end
+padding-right.px: 23
+margin-bottom.px: 24
+link: /index
+color: blue
+
+-- ftd.text: Login
+background.solid: rgb(36,80,255)
+border-radius.px: 30
+padding-right.px: 55
+padding-left.px: 55
+padding-top.px: 12
+padding-bottom.px: 12
+align-self: center
+margin-bottom.px: 30
+link: /index
+color: white
+
+-- ftd.row:
+spacing.fixed.px: 5
+align-self: center
+
+-- ftd.text: New User?
+
+-- ftd.text: Register
+link: /index
+color: blue
+
+-- end: ftd.row
+
+-- end: ftd.column
